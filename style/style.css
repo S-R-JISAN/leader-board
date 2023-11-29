@@ -3,13 +3,15 @@
         display: flex;
         background-color: #562EFF;
         color: white;
-        padding: 20px;
         justify-content:space-evenly;
+        height: 94px;
+        width: 100%;
+        margin: 0px;
      }
      .nav-header  ul{
         display: flex;
         gap: 20px;
-        
+       align-items: center;
      }
      .nav-header li {
         list-style: none;
@@ -31,9 +33,11 @@ body{
    background-color: white;
     max-width: 870px;
     margin: 0 auto;
+    border-radius: 5px;
 }
 .container hr{
     width: 807px;
+    margin-top: 30PX;
 }
 /* top player */
 .play-head , .blog-head{
@@ -99,6 +103,11 @@ body{
     }
     .cours{
         margin-bottom: 30px;
+        box-shadow:2px 6px 10px #edecec;
+        width: 270px;
+        height: 320px;
+        padding: 20px 5px 10px 5px;
+        border-radius: 9px;
     }
     .cours-p{
         font-size: 14.69px;
